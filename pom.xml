@@ -16,7 +16,7 @@
     <name>api</name>
 
     <properties>
-        <framework-commons.version>0.0.1-SNAPSHOT</framework-commons.version>
+        <framework-common.version>0.0.1-SNAPSHOT</framework-common.version>
     </properties>
 
     <dependencies>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>net.hwyz.iov.cloud.framework</groupId>
             <artifactId>framework-common-starter</artifactId>
-            <version>${framework-commons.version}</version>
+            <version>${framework-common.version}</version>
         </dependency>
         <!-- 参数校验 -->
         <dependency>
