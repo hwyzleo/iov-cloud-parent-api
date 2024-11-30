@@ -16,7 +16,6 @@
     <name>api</name>
 
     <properties>
-        <framework-common.version>0.0.1-SNAPSHOT</framework-common.version>
     </properties>
 
     <dependencies>
@@ -24,12 +23,12 @@
         <dependency>
             <groupId>net.hwyz.iov.cloud.framework</groupId>
             <artifactId>framework-common-starter</artifactId>
-            <version>${framework-common.version}</version>
         </dependency>
-        <!-- 参数校验 -->
+
+        <!-- 接口调用 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 
